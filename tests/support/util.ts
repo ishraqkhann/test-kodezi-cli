@@ -13,6 +13,11 @@ export interface Thenable<T> {
  * @returns {Thenable<boolean>} - A promise that resolves to true if the input promise is rejected, and throws an error otherwise.
  */
 export function isEventuallyRejected<T>(promise: Thenable<T>): Thenable<boolean> {
+    /**
+     * Returns a promise that resolves to true if the input promise is rejected, and throws an error otherwise.
+     *
+     * @returns {Thenable<boolean>} - A promise that resolves to true if the input promise is rejected, and throws an error otherwise.
+     */
 	return promise.then<any>(function () {
 		throw new Error('unexpected code path');
 	}, function () {
@@ -25,5 +30,10 @@ export function isEventuallyRejected<T>(promise: Thenable<T>): Thenable<boolean>
  * @throws {Error} When this function is called.
  */
 export function throwImmediatly() {
-	throw new Error('unexpected code path');
+    /**
+     * This function immediately throws an error with a specific message.
+     *
+     * @throws {Error} When this function is called.
+     */
+    throw new Error('unexpected code path');
 }
