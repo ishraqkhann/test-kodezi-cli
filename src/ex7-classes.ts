@@ -41,5 +41,9 @@ export class Dog extends Animal implements Loyalty {
 	/**
 	 * Represents the loyalty characteristic of the dog.
 	 */
-	beLoyal() { }
+	beLoyal() {
+        /**
+         * Represents the loyalty characteristic of the dog.
+         */
+    }
 }
