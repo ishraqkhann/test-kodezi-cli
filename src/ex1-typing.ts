@@ -9,4 +9,6 @@ const defaultColor: Color = Color.Red;
  * @param {...Drawable[]} items - The items to be drawn.
  * @returns {void}
  */
-function draw(target: Node, ...items: Drawable[]): void {  }
+function draw(target: Node, ...items: Drawable[]): void {  
+    // Add the implementation here
+}
