@@ -14,7 +14,9 @@ class Rect implements Drawable {
 	 *
 	 * @param target - The node where the rectangle will be drawn.
 	 */
-	draw(target: Node) {}
+	draw(target: Node) {
+		// Add implementation here
+	}
 }
 const thing: Drawable = {
 	id: 0,
