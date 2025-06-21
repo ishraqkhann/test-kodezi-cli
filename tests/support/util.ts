@@ -18,12 +18,4 @@ export function isEventuallyRejected<T>(promise: Thenable<T>): Thenable<boolean>
 	}, function () {
 		return true; // expect rejection
 	});
-}
-/**
- * Immediately throws an error with a specific message.
- *
- * @throws {Error} When this function is called.
- */
-export function throwImmediatly() {
-	throw new Error('unexpected code path');
-}
+Add explicit type annotations for better type safety
