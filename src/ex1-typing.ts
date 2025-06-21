@@ -1,8 +1,4 @@
-import { Drawable } from './ex2-interfaces';
-enum Color { Red, Green, Blue }
-let check = true;
-const defaultColor: Color = Color.Red;
-/**
+Add JSDoc comments or inline comments explaining the function
  * Draws the provided items on the specified target node.
  * 
  * @param {Node} target - The node where the items should be drawn.
