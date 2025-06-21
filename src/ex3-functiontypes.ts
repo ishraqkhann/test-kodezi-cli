@@ -7,7 +7,7 @@ interface DrawMethod {
  * 
  * @param {any} target - The target to draw on.
  */
-let method: DrawMethod = function(target: any) { };
+let method: DrawMethod = function(target: unknown // TODO: Replace with specific type) { };
 /**
  * Represents a method for drawing.
  * 
